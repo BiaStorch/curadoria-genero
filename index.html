@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Curadoria | Igualdade de Gênero</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#050505;
+      color:white;
+      padding:40px;
+    }
+
+    h1{
+      text-align:center;
+      margin-bottom:15px;
+      font-size:42px;
+      color:#ff2ca0;
+    }
+
+    .subtitle{
+      text-align:center;
+      max-width:900px;
+      margin:0 auto 50px auto;
+      color:#cfcfcf;
+      line-height:1.6;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      border:2px solid #ff2ca0;
+      border-radius:24px;
+      padding:25px;
+      background:#0b0b0b;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 0 20px rgba(255,44,160,0.25);
+    }
+
+    .blue{
+      border-color:#3f6dff;
+    }
+
+    .purple{
+      border-color:#a94dff;
+    }
+
+    .title{
+      font-size:30px;
+      margin-bottom:8px;
+      color:#ff2ca0;
+      font-weight:bold;
+    }
+
+    .blue .title{
+      color:#3f6dff;
+    }
+
+    .purple .title{
+      color:#a94dff;
+    }
+
+    .description{
+      color:#c7c7c7;
+      margin-bottom:25px;
+    }
+
+    .item{
+      margin-bottom:20px;
+      padding-bottom:20px;
+      border-bottom:1px solid #252525;
+    }
+
+    .item:last-child{
+      border:none;
+      margin-bottom:0;
+      padding-bottom:0;
+    }
+
+    a{
+      color:white;
+      text-decoration:none;
+      transition:0.2s;
+      line-height:1.5;
+    }
+
+    a:hover{
+      color:#ff2ca0;
+    }
+
+    .blue a:hover{
+      color:#3f6dff;
+    }
+
+    .purple a:hover{
+      color:#a94dff;
+    }
+
+    .footer{
+      text-align:center;
+      margin-top:60px;
+      color:#8f8f8f;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Curadoria de Conteúdos</h1>
+
+  <p class="subtitle">
+    Informação também transforma ambientes. 
+    Explore conteúdos, reflexões, filmes, artigos e perfis que ajudam a ampliar a visão sobre igualdade, respeito e diversidade no dia a dia.
+  </p>
+
+  <div class="grid">
+
+    <!-- VIDEOS -->
+    <div class="card">
+
+      <div class="title">VÍDEOS</div>
+      <div class="description">Assista. Inspire. Compartilhe.</div>
+
+      <div class="item">
+        <a href="https://www.youtube.com/" target="_blank">
+          As dores da liderança feminina
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.youtube.com/" target="_blank">
+          A ideia da masculinidade heroica | TEDx
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.youtube.com/" target="_blank">
+          Masculinidade como vilã do cuidado entre os homens
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ARTIGOS -->
+    <div class="card blue">
+
+      <div class="title">ARTIGOS</div>
+      <div class="description">Leia. Reflita. Aprofunde-se.</div>
+
+      <div class="item">
+        <a href="https://www.unwomen.org/" target="_blank">
+          ONU Mulheres – Gender Equality Accelerator
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.ipea.gov.br/" target="_blank">
+          Violência entre parceiros íntimos e ambiente de trabalho
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.bbc.com/portuguese" target="_blank">
+          Mães solo recebem menos e ocupam empregos mais precários
+        </a>
+      </div>
+
+    </div>
+
+    <!-- FILMES -->
+    <div class="card purple">
+
+      <div class="title">FILMES</div>
+      <div class="description">Assista. Sinta. Transforme.</div>
+
+      <div class="item">
+        <a href="https://www.netflix.com/" target="_blank">
+          Explicando – Diferença Salarial (Netflix)
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.primevideo.com/" target="_blank">
+          All Her Fault – Mini Série
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.imdb.com/" target="_blank">
+          Imperfeitamente Perfeita
+        </a>
+      </div>
+
+    </div>
+
+    <!-- MATERIAIS -->
+    <div class="card">
+
+      <div class="title">MATERIAIS</div>
+      <div class="description">Estude. Compartilhe. Multiplique.</div>
+
+      <div class="item">
+        <a href="https://www.weforum.org/" target="_blank">
+          Fórum Econômico Mundial sobre Equidade e Inclusão
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.gov.br/" target="_blank">
+          Relatório de Transparência e Igualdade Salarial
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.ipea.gov.br/" target="_blank">
+          Sem mais mulheres no poder, Brasil limita seu desenvolvimento
+        </a>
+      </div>
+
+    </div>
+
+    <!-- PERFIS -->
+    <div class="card blue">
+
+      <div class="title">PERFIS</div>
+      <div class="description">Siga. Escute. Aprenda.</div>
+
+      <div class="item">
+        <a href="https://www.instagram.com/onumulheresbr/" target="_blank">
+          ONU Mulheres Brasil
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.instagram.com/luizahelenatrajano/" target="_blank">
+          Luiza Helena Trajano
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://www.ted.com/" target="_blank">
+          TED Talks sobre liderança e igualdade
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Comitê de Gênero • Informação gera reflexão • Reflexão gera mudança
+  </div>
+
+</body>
+</html>
